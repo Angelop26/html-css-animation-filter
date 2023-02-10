@@ -60,22 +60,68 @@
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
-    transition: all 1s;
 }
 
 .ex-6-img:hover{
     filter: grayscale();
 }
 
+.ex-7-img{
+    transition: all 1s linear;
+}
+
+.ex-7-img:hover{
+    filter: grayscale();
+    filter: blur(1);
+}
+
+.ex-8-img{
+    transition: all 1s;
+}
+.ex-8-img:hover{
+    filter: grayscale();
+    border-radius: 30px;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 1s;
+}
+
+.ex-9-img:hover{
+    filter: grayscale();
+    border-radius: 30px;
+    transform: scale(1.5,1.5);
 }
 .ex-10-icon {
     font-size: 60px;
+    animation: spinner 2s linear infinite;
+}
+
+@keyframes spinner{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
 }
 .ex-11-icon {
     font-size: 60px;
+}
+
+.ex-11-icon:hover{
+    animation: spinner2 2s linear;
+}
+
+@keyframes spinner2{
+    0%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
 }
 .ex-12-button, .ex-13-button {
     position: relative;
