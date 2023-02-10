@@ -194,19 +194,19 @@
         left: 10%;
         top: -10px;
     }
-    25%{
+    20%{
         left: 90%;
         top: -10px;
     }
-    50%{
+    40%{
         left: 90%;
         top: 60px;
     }
-    75%{
+    60%{
         left: -10%;
         top: 60px;
     }
-    85%{
+    80%{
         left: -10%;
         top: -10px;
     }
@@ -226,19 +226,19 @@
         right: 20%;
         bottom: -10px;
     }
-    25%{
+    20%{
         right: 80%;
         bottom: -10px;
     }
-    50%{
+    40%{
         right: 80%;
         bottom: 60px;
     }
-    75%{
+    60%{
         right: -10%;
         bottom: 60px;
     }
-    85%{
+    80%{
         right: -10%;
         bottom: -10px;
     }
